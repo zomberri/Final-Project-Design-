@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bernice Onyeabor">
+    <meta name="description" content="Contact Frosty Spikes Resort for more information about our resort, services, and accommodations.">
+    <title>Frosty Spikes Resort | Contact</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <h1><a href="index.html">Frosty Spikes Resort</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero"></section>
+
+    <!--Text-->
+    <section class="contact-intro">
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns.<br>We are happy to help!</p>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <section class="contact-content">
+            <!-- Image Section -->
+            <div class="contact-image">
+                <img src="images/swiss-peak.jpg" alt="A stunning view of a Swiss peak" width="500" height="300">
+            </div>
+
+            <!-- Contact Form Section -->
+            <div class="contact-form">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="contact-method">Preferred Contact Method *</label>
+                    <div class="contact-methods">
+                        <input type="radio" id="email-method" name="contact-method" value="email" required>
+                        <label for="email-method">Email</label>
+
+                        <input type="radio" id="phone-method" name="contact-method" value="phone" required>
+                        <label for="phone-method">Phone</label>
+                    </div>
+
+                    <label for="comments">Comments *</label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright ©2023 - Frosty Spikes Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>

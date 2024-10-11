@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0c2ae;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #394735;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+nav ul {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #aadae9;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/swiss-valley.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+/* Intro Text */
+.intro-text {
+    text-align: center;
+    padding: 20px 0;
+    color:#252525
+}
+
+.intro-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6; 
+}
+
+/* Content Layout */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.content-block {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.content-block img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.content-block h3 {
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+    color:#252525
+}
+
+.content-block p {
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    color:#252525
+}
+
+/* Contact Page Layout */
+.contact-intro {
+    text-align: left;
+    padding: 30px 0;
+    margin-left: 400px;
+    color: #252525;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.contact-image {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 600px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+}
+
+.contact-methods input {
+    margin-right: 5px;
+}
+
+.contact-form button {
+    background-color: #487742;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #83c48d;
+}
+
+/* Footer */
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+} 
